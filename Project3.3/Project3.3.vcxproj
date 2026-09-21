@@ -26,7 +26,8 @@
     <ClInclude Include="Solutions.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Temp.txt" />
+    <Text Include="Input.txt" />
+    <Text Include="Output.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>

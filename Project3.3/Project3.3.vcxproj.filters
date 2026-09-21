@@ -28,7 +28,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Temp.txt">
+    <Text Include="Output.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Input.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
