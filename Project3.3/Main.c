@@ -51,7 +51,17 @@ int main(void)
 	double gpa_standard_deviation = Calculate_standard_deviation(gpa_variance);
 	double maximum_GPA = Find_Maximum(GPA1, GPA2, GPA3, GPA4, GPA5);
 	double minimum_GPA = Find_Minimum(GPA1, GPA2, GPA3, GPA4, GPA5);
-
+	
+	//Printing the results to the output file
+	print_double(Output_File, "GPA Sum: %f\n", GPA_Sum);
+	print_double(Output_File, "GPA Mean: %f\n", GPA_Mean);
+	print_double(Output_File, "Age Mean: %f\n", Age_Mean);
+	print_double(Output_File, "Class Standing Mean: %f\n", class_standing_Mean);
+	print_double(Output_File, "Maximum GPA: %f\n", maximum_GPA);
+	print_double(Output_File, "Minimum GPA: %f\n", minimum_GPA);
+	
+	fclose(Input_File);
+	fclose(Output_File);
 
 	return 0;
 }
