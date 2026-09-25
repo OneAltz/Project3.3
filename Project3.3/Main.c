@@ -53,15 +53,15 @@ int main(void)
 		double minimum_GPA = Find_Minimum(GPA1, GPA2, GPA3, GPA4, GPA5);
 	
 	//Printing the results to the output file
-	print_double(Output_File, GPA_Sum);
-	print_double(Output_File, GPA_Mean);
-	print_double(Output_File, Age_Mean);
-	print_double(Output_File, class_standing_Mean);
-	print_double(Output_File, maximum_GPA);
-	print_double(Output_File, minimum_GPA);
+		print_double(Output_File, GPA_Sum);
+		print_double(Output_File, GPA_Mean);
+		print_double(Output_File, Age_Mean);
+		print_double(Output_File, class_standing_Mean);
+		print_double(Output_File, maximum_GPA);
+		print_double(Output_File, minimum_GPA);
 	
-	fclose(Input_File);
-	fclose(Output_File);
+		fclose(Input_File);
+		fclose(Output_File);
 
 	return 0;
 }

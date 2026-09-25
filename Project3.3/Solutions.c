@@ -1,5 +1,21 @@
 #include "Solutions.h"
 
+//Function Definitions
+//file reading and writing functions
+double read_double(FILE* infile) {
+    double number= 0.0;
+    fscanf(infile, "%lf", &number);
+    return number;
+}
+double read_integer(FILE* infile) {
+	int number= 0;
+	fscanf(infile, "%d", &number);
+	return number;
+}
+void print_double(FILE* outfile, double number) {
+	fprintf(outfile, "%.2lf\n", number);
+}
+
 //This Is the Funtion For No.1, For Calculating The Sum Of 5 Numbers
 double Calculate_Sum(double No1, double No2, double No3, double No4, double No5) {
     return No1 + No2 + No3 + No4 + No5;
